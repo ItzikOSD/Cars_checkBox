@@ -127,9 +127,13 @@ function generateSingleCar(index) {
         draw(headers, DOM.tableHead, "tableHeader", false)
     })
 
-   
-
-
+    function checkSunroof(){
+       if (checkboxSunroof = false){}
+       if (checkboxSunroof = true){
+           
+       }
+    }
+    
 
     searchOperation.addEventListener("click", function () {
         const value = document.getElementById("searchValue").value;
