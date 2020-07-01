@@ -110,7 +110,7 @@ function generateSingleCar(index) {
     const listViewButton = document.getElementById("listView");
     const cardViewButton = document.getElementById("cardView");
     const tableViewButton = document.getElementById("tableView");
-    const checkboxSunroof = document.getElementById("checkboxSunroof"); // we don't draw we just nee to see th cars with the sunroof
+    const checkboxSunroof = document.getElementById("sunRoof_b"); // this func will show us the data in sunroof colum
     const searchOperation = document.getElementById("searchOperation");
 
     listViewButton.addEventListener("click", function () {
