@@ -110,6 +110,7 @@ function generateSingleCar(index) {
     const listViewButton = document.getElementById("listView");
     const cardViewButton = document.getElementById("cardView");
     const tableViewButton = document.getElementById("tableView");
+    const checkboxSunroof = document.getElementById("sunRoof_b"); // this func will show us the data in sunroof colum
     const searchOperation = document.getElementById("searchOperation");
 
     listViewButton.addEventListener("click", function () {
@@ -125,6 +126,14 @@ function generateSingleCar(index) {
         draw(cars, DOM.tableData, "table")
         draw(headers, DOM.tableHead, "tableHeader", false)
     })
+
+    function checkSunroof(){
+       if (checkboxSunroof = false){}
+       if (checkboxSunroof = true){
+           
+       }
+    }
+    
 
     searchOperation.addEventListener("click", function () {
         const value = document.getElementById("searchValue").value;
